@@ -43,5 +43,4 @@ export const ProjectList = [
     image: todo,
     skills: "React",
   },
-
 ];

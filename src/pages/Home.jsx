@@ -9,7 +9,7 @@ function Home() {
   
   return (
     <div className='home'>
-        
+
         <div className='about'>
             <h2> Hi, My Name is Ahmed</h2>
 
@@ -94,6 +94,7 @@ function Home() {
                 </li>
 
             </ol>
+            
         </div>
     </div>
   )

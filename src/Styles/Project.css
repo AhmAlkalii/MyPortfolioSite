@@ -13,6 +13,7 @@
     font-weight: bolder;
   }
   
+
   .projectList {
     width: 70vw;
     height: auto;
@@ -20,6 +21,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
+  
   
   /* MENU ITEM STYLING */
   
@@ -50,6 +52,7 @@
   .projectItem h1 {
     font-size: 25px;
   }
+  
   
   @media only screen and (max-width: 1300px) {
     .projectList {

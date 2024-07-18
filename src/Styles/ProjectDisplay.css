@@ -7,11 +7,13 @@
     flex-direction: column;
   }
   
+
   .project h1 {
     margin-top: 210px;
     color: #3e497a;
     font-size: 35px;
   }
+  
   .project img {
     height: 410px;
     width: 700px;

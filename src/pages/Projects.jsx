@@ -6,6 +6,7 @@ import "../Styles/Project.css";
 
 function Projects() {
   return (
+
     <div className="projects">
       <h1> My Personal Projects</h1>
       <div className="projectList">
@@ -16,6 +17,7 @@ function Projects() {
         })}
       </div>
     </div>
+    
   );
 }
 

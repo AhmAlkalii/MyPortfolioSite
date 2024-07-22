@@ -35,7 +35,7 @@
   }
   
   .skills {
-    font-size: 35px;
+    font-size: 25px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -43,8 +43,10 @@
     align-items: center;
   }
 
+
   .skills h1 {
     color: #3e497a;
+    font-size: 65px;
   }
   
   .skills .list {
@@ -56,8 +58,12 @@
     font-size: 20px;
   }
 
+ 
+  .ch1{
+    font-size: 65px;
+  }
   .certs {
-    font-size: 35px;
+    font-size: 25px;
     width: 100%;
     display: flex;
     justify-content: center;

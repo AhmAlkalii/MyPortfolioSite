@@ -5,13 +5,19 @@ import dcu from "../assets/dcusite.png"
 import todo from "../assets/Todolist.png"
 import rent from "../assets/carent.png"
 import rnate from "../assets/rnate.jpeg"
-
+import home from '../assets/Home.png'
 
 export const ProjectList = [
+  {
+    name: "Personal Expense Tracker",
+    image: home,
+    skills: "ReactJS,NodeJS,Sqlite3",
+  },
   {
     name: "CV Generation Website Frondend + Backend",
     image: cvgen,
     skills: "Python,Angular,OpenAIAPI,Flask,SQL",
+    site: ''
   },
   {
     name:"Car Rental System (Full Stack)",

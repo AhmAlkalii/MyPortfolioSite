@@ -1,6 +1,6 @@
 import React from 'react'
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import XIcon from '@mui/icons-material/X';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "../Styles/Footer.css";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer'>
         <div className="socialMedia">
           <a href={"https://twitter.com/AhmedAlkalii"} target="_blank" rel="noopener noreferrer">
-            <TwitterIcon />
+            <XIcon />
           </a>
           <a href="https://www.linkedin.com/in/ahmed-mohammed-alkali-959a18265" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />

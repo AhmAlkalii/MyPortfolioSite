@@ -1,7 +1,7 @@
 import React from 'react'
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "../Styles/Home.css";
 
 function Home() {
@@ -22,80 +22,65 @@ function Home() {
                     <EmailIcon />
                 </a>
                 <a href={"https://github.com/AhmAlkalii"} target="_blank" rel="noopener noreferrer">
-                    <GithubIcon />
+                    <GitHubIcon />
                 </a>
             </div>
 
         </div>
 
         <div className='skills'>
-            <h1> Skills</h1>
-
+            <h1 className='sh1'>Skills</h1>
             <ol className="list">
-
                 <li className="item">
-                    <h2> Front-End</h2>
-                    <span>
-                    React Native, Angular, HTML, CSS, BootStrap, TailwindCSS, StyledComponents and MERN stack (MongoDB, Express.js, React.js, Node.js)
-                    </span>
-                </li>
-
-                <li className="item">
-                    <h2>Back-End</h2>
-                    <span>
-                    NodeJS, .NET, MongoDB, SQLite3, Basic RESTful API Concepts,Server Deployment
-                    </span>
-                </li>
-
-                <li className="item">
-                    <h2>Languages</h2>
+                    <h2>Programming Languages</h2>
                     <span>JavaScript, Python, C#, C++, TypeScript</span>
                 </li>
-
+                <li className="item">
+                    <h2>Web and Mobile Development</h2>
+                    <span>React.js, Node.js, Angular, HTML, CSS, React Native, .NET Framework</span>
+                </li>
+                <li className="item">
+                    <h2>Backend Development</h2>
+                    <span>.NET Framework, Node.js, Flask</span>
+                </li>
+                <li className="item">
+                    <h2>Database Management</h2>
+                    <span>MongoDB, SQLite3, SQL</span>
+                </li>
+                <li className="item">
+                    <h2>Version Control</h2>
+                    <span>Git, GitHub, Azure DevOps</span>
+                </li>
+                <li className="item">
+                    <h2>API Testing</h2>
+                    <span>Postman</span>
+                </li>
+                <li className="item">
+                    <h2>Data Science and Machine Learning</h2>
+                    <span>Pandas, NumPy, SciKit-Learn, Matplotlib, Seaborn, Spark, NLP</span>
+                </li>
                 <li className="item">
                     <h2>Office Skills</h2>
-                    <span>Microsoft Word, Microsoft Excel, Microsoft PowerPoint</span>
+                    <span>Microsoft Word, Excel, PowerPoint</span>
                 </li>
-                
             </ol>
         </div>
+
 
         <div className='certs'>
-            <h1>Cisco NetAcad Certificates </h1>
-
+            <h1 className='ch1'>Certifications</h1>
             <ol className="list">
-
-                <li className="item">
-                    <h4>CPA - Programming Essentials in C++</h4>
-                </li>
-
-                <li className="item">
-                    <h4>CPA - Programming Essentials in C++</h4>
-                </li>
-
-                <li className="item">
-                    <h4>NDG Linux Essentials</h4>
-                </li>
-
-                <li className="item">
-                    <h4>NDG Linux Unhatched</h4>
-                </li>
-
-                <li className="item">
-                    <h4>JavaScript Essentials 1 (JSE)</h4>
-                </li>
-
-                <li className="item">
-                    <h4>Introduction to Networks</h4>
-                </li>
-
-                <li className="item">
-                    <h4>Programming Essentials in Python</h4>
-                </li>
-
+                <li className="item"><h4>CPA - Programming Essentials in C++ - Cisco (2023)</h4></li>
+                <li className="item"><h4>NDG Linux Essentials - Cisco (2023)</h4></li>
+                <li className="item"><h4>NDG Linux Unhatched - Cisco (2023)</h4></li>
+                <li className="item"><h4>JavaScript Essentials 1 (JSE) - Cisco (2023)</h4></li>
+                <li className="item"><h4>Introduction to Networks - Cisco (2023)</h4></li>
+                <li className="item"><h4>Programming Essentials in Python - Cisco (2023)</h4></li>
+                <li className="item"><h4>Introduction to Data Science - Cisco (2023)</h4></li>
+                <li className="item"><h4>Python for Data Science and Machine Learning Bootcamp - Udemy (2024)</h4></li>
             </ol>
-            
         </div>
+
     </div>
   )
 }

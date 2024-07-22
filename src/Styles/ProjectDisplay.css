@@ -29,3 +29,7 @@
     font-size: 60px;
     color: #3e497a;
   }
+
+  .alink svg{
+    margin: 10px;
+  }

@@ -12,41 +12,38 @@ export const ProjectList = [
     name: "Personal Expense Tracker",
     image: home,
     skills: "ReactJS,NodeJS,Sqlite3",
-  },
-  {
-    name: "CV Generation Website Frondend + Backend",
-    image: cvgen,
-    skills: "Python,Angular,OpenAIAPI,Flask,SQL",
-    site: ''
+    site: 'https://homebudgettrackerr.azurewebsites.net/',
+    git: 'https://github.com/AhmAlkalii/HomeExpensePlanner'
   },
   {
     name:"Car Rental System (Full Stack)",
     image: rent,
-    skills: "Angular, Flask, SQLite, Azure"
+    skills: "Angular, Flask, SQLite, Azure",
+    site:'https://passarentalsitetest.azurewebsites.net/home',
+    git:'https://github.com/AhmAlkalii/RentalsiteFrontend'
+  }, 
+  {
+    name: "CV Generation Website Frondend + Backend",
+    image: cvgen,
+    skills: "Python,Angular,OpenAIAPI,Flask,SQL",
+    git:'https://github.com/AhmAlkalii/cv-generation-site-frontend'
   },
   {
     name: "Facial Recognition Attendance System",
     image: facial,
     skills: "Python",
+    git:'https://github.com/AhmAlkalii/FacialRecognitionAttendanceSystemUsingPython'
   },
   {
     name: "Car Rental Mobile Application(FullStack)",
     image: rnate,
     skills: "React Native, Node and Express JS and Sqlite3",
+    git:'https://github.com/AhmAlkalii/CarRental-React-Native-Frontend'
   },
   {
     name: "DCU Fan Website",
     image: dcu,
     skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "QuizSite",
-    image: quiz,
-    skills: "React",
-  },
-  {
-    name: "TodoList",
-    image: todo,
-    skills: "React",
-  },
+    site:'https://dcufansite.s3.eu-north-1.amazonaws.com/myp/myp.html'
+  }
 ];

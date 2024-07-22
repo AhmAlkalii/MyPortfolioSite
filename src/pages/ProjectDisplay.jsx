@@ -19,11 +19,19 @@ function ProjectDisplay() {
         <b>Technologies:</b> {project.skills}
       </p>
       
-      <a href={"https://github.com/AhmAlkalii"} target="_blank" rel="noopener noreferrer">
+      <div className="alink">
+      
+      <a href={project.git} target="_blank" rel="noopener noreferrer">
         <GitHubIcon />
       </a>
 
-      <PreviewIcon/>
+      {project.site && (
+          <a href={project.site} target="_blank" rel="noopener noreferrer">
+            <PreviewIcon />
+          </a>
+        )}
+      
+      </div>
       
       
     </div>

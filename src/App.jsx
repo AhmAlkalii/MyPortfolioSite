@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import { useContext } from 'react'
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Experience from './pages/Experience';
+// import Experience from './pages/Experience';
 import Footer from './Components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import { ThemeContext } from './context/theme';
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} /> 
-          <Route path="/experience" element={<Experience />} />
+          {/* <Route path="/experience" element={<Experience />} /> */}
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/skills" element={<Skills />} />
           

@@ -7,7 +7,7 @@ import "../Styles/Home.css";
 import Skills from './Skills'
 import Typed from 'typed.js';
 import Contact from './Contact';
-
+import one from '../assets/4.jpeg'
 
 function Home() {
   useEffect(() => {
@@ -28,6 +28,8 @@ function Home() {
 
   return (
     <div className='about center'>
+
+        <img src={one} alt="Ahmed Mohammed" className="profile-pic" />
 
         <h2> Hi, My Name is Ahmed Mohammed</h2>
         <h3 className='about__role'>I am a <span class="multiple-text"></span></h3>

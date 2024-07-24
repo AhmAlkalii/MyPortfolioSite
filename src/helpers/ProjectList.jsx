@@ -34,12 +34,19 @@ export const ProjectList = [
     git: 'https://github.com/AhmAlkalii/CarRental-React-Native-Frontend'
   },
   {
+    name: "Modeled virus spread using cellular automata",
+    skills: ["Python", "Pandas", "Numpy",'Matplotlib','Seaborn'], 
+    git: 'https://github.com/AhmAlkalii/Modeling-viruses-by-cellular-automata',
+    description: 'Celluar Automata is used to model the spread, death and recovery of coronavirus (COVID-19) within the population of the United States of America (USA). ',
+  },
+  {
     name: "DCU Fan Website (Frontend)",
     skills: ["JavaScript", "HTML", "CSS"], 
     git: 'https://github.com/AAlkali/internshipAlkali',
     description: 'Developed a website that showcases a lot of DC superheroes and villains.',
     site: 'https://dcufansite.s3.eu-north-1.amazonaws.com/myp/myp.html'
-  }
+  },
+  
 ];
 
 

@@ -23,11 +23,11 @@ function App() {
         <Routes>
           
           <Route path="PersonalPortfolioWebsite/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:id" element={<ProjectDisplay />} /> 
+          <Route path="PersonalPortfolioWebsite/projects" element={<Projects />} />
+          <Route path="PersonalPortfolioWebsite/project/:id" element={<ProjectDisplay />} /> 
           {/* <Route path="/experience" element={<Experience />} /> */}
-          <Route path="/certificate" element={<Certificate />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="PersonalPortfolioWebsite/certificate" element={<Certificate />} />
+          <Route path="PersonalPortfolioWebsite/skills" element={<Skills />} />
           
         </Routes>
         <Footer />

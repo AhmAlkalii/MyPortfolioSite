@@ -11,7 +11,7 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <Link to="/" className='link'>{title}</Link>
+          <Link to="PersonalPortfolioWebsite/" className='link'>{title}</Link>
         ) : (
           title
         )}

@@ -3,16 +3,17 @@ import ProjectItem from "../Components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
 
 import "../Styles/Project.css";
+import ProjectDisplay from "./ProjectDisplay";
 
 function Projects() {
   return (
 
-    <div className="projects">
-      <h1> My Personal Projects</h1>
-      <div className="projectList">
+    <div className='section projects'>
+      <h1 className="section__title"> My Personal Projects</h1>
+      <div className="projects__grid">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image} />
+            <ProjectDisplay id={idx} project={project}  />
           );
         })}
       </div>

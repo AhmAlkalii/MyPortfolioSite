@@ -25,8 +25,10 @@ function Navbar() {
       </div>
       <div className='links'>
 
+        <Link to="/skills" className='link link--nav'>Skills</Link>
         <Link to="/projects" className='link link--nav'>Projects</Link>
-        <Link to="/experience" className='link link--nav'>Experience</Link>
+        {/* <Link to="/experience" className='link link--nav'>Experience</Link> */}
+        <Link to="/certificate" className='link link--nav'>Certificate</Link>
         
 
         <button

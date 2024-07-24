@@ -2,40 +2,46 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import PreviewIcon from '@mui/icons-material/Preview';
+import LaunchIcon from '@mui/icons-material/Launch';
 import "../Styles/ProjectDisplay.css";
+import uniqid from 'uniqid';
 
-function ProjectDisplay() {
-  const { id } = useParams();
-  const project = ProjectList[id];
-  return (
 
-    <div className="project">
-      <h1> {project.name}</h1>
-      
-      <img src={project.image} />
+const ProjectDisplay = ({ project }) => (
+  <div className='project'>
+    <h3>{project.name}</h3>
 
-      <p>
-        <b>Technologies:</b> {project.skills}
-      </p>
-      
-      <div className="alink">
-      
-      <a href={project.git} target="_blank" rel="noopener noreferrer">
+    <p className='project__description'>{project.description}</p>
+    {project.skills && (
+      <ul className='project__stack'>
+        {project.skills.map((item) => (
+          <li key={uniqid()} className='project__stack-item'>
+            {item}
+          </li>
+        ))}
+      </ul>
+    )}
+
+    {project.git && (
+      <a
+        href={project.git}
+        aria-label='source code'
+        className='link link--icon'
+      >
         <GitHubIcon />
       </a>
+    )}
 
-      {project.site && (
-          <a href={project.site} target="_blank" rel="noopener noreferrer">
-            <PreviewIcon />
-          </a>
-        )}
-      
-      </div>
-      
-      
-    </div>
-  )
-}
+    {project.site && (
+      <a
+        href={project.site}
+        aria-label='live preview'
+        className='link link--icon'
+      >
+        <LaunchIcon />
+      </a>
+    )}
+  </div>
+)
 
 export default ProjectDisplay

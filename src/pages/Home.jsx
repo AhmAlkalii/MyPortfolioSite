@@ -1,19 +1,36 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import XIcon from '@mui/icons-material/X';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "../Styles/Home.css";
+import Skills from './Skills'
+import Typed from 'typed.js';
+import Contact from './Contact';
 
 
 function Home() {
-  const email = 'hmkalkali@gmail.com';
-  
+  useEffect(() => {
+    const typed = new Typed('.multiple-text', {
+      strings: ['IT student','Nigerian', '21 year old','Data Science and Machine Learning Enthusiast', 'Software Development Enthusiast','Video Games Lover','Football fan' ],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true,
+    });
+
+    // Cleanup function to destroy Typed instance on component unmount
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <div className='about center'>
 
         <h2> Hi, My Name is Ahmed Mohammed</h2>
-        <h2 className='about__role'>An IT Student.</h2>
-
+        <h3 className='about__role'>I am a <span class="multiple-text"></span></h3>
 
         <p className='about__desc'>
             I'm a dedicated IT student with a strong interest in software 
@@ -21,6 +38,9 @@ function Home() {
             and machine learning. I enjoy learning new technologies and 
             applying my skills in practical projects, such as developing 
             web solutions using React and analyzing data with Python. 
+            Working with people from diverse backgrounds has provided me with a deep understanding and awareness of how to be 
+            an excellent teamplayer in addtion has helped me develop good communication 
+            skills.
             Check out my resume to learn more about my skills and experience!
         </p>
 
@@ -34,33 +54,15 @@ function Home() {
             <a href="https://www.linkedin.com/in/ahmed-mohammed-alkali-959a18265" target="_blank" rel="noopener noreferrer" className='link link--icon'>
                 <LinkedInIcon />
             </a>
-            <a href={`mailto:${email}`} className='link link--icon'>
-                <EmailIcon />
-            </a>
             <a href={"https://github.com/AhmAlkalii"} target="_blank" className='link link--icon' rel="noopener noreferrer">
                 <GitHubIcon />
             </a>
+            <a href={"https://twitter.com/AhmedAlkalii"} className='link link--icon' target="_blank" rel="noopener noreferrer">
+            <XIcon />
+            </a>
         </div>
 
-        
-
-
-
-
-        {/* <div className='certs'>
-            <h1 className='ch1'>Certifications</h1>
-            <ol className="list">
-                <li className="item"><h4>CPA - Programming Essentials in C++ - Cisco (2023)</h4></li>
-                <li className="item"><h4>NDG Linux Essentials - Cisco (2023)</h4></li>
-                <li className="item"><h4>NDG Linux Unhatched - Cisco (2023)</h4></li>
-                <li className="item"><h4>JavaScript Essentials 1 (JSE) - Cisco (2023)</h4></li>
-                <li className="item"><h4>Introduction to Networks - Cisco (2023)</h4></li>
-                <li className="item"><h4>Programming Essentials in Python - Cisco (2023)</h4></li>
-                <li className="item"><h4>Introduction to Data Science - Cisco (2023)</h4></li>
-                <li className="item"><h4>Python for Data Science and Machine Learning Bootcamp - Udemy (2024)</h4></li>
-            </ol>
-        </div> */ }
-
+        <Contact/>
     </div>
   )
 }

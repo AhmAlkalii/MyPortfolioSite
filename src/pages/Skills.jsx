@@ -1,10 +1,12 @@
 
 import uniqid from 'uniqid';
 import { skills } from '../helpers/ProjectList';
-import './Skills.css';
+import "../Styles/Skills.css";
+
 
 function Skills() {
   if (!skills.length) return null;
+  
 
   return (
     <section className='section skills' id='skills'>

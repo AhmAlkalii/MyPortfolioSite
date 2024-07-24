@@ -1,0 +1,25 @@
+.contact {
+    flex-direction: column;
+  }
+  
+
+
+.contact__description {
+font-size: 1.6rem;
+margin-bottom: 2rem;
+}
+
+.contact__btn {
+display: inline-block;
+margin-top: 1rem;
+}
+
+.contact__email {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+  
+  .contact__email p {
+    margin: 0;
+  }
+  

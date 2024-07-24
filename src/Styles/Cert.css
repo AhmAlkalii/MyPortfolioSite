@@ -1,0 +1,28 @@
+.Cert h2{
+    margin-bottom: 5rem;
+}
+.Cert-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Cert-container .Cert-box{
+    flex: 0 0 20rem;
+    padding: 3rem 2rem 4rem;
+    border-radius: 5rem;
+    text-align: center;
+    border: .2rem solid;
+    transition: .5s ease;
+}
+.Cert-container .Cert-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.24);
+}
+
+.Cert-box h3{
+    font-size: 1.2rem;
+}
+

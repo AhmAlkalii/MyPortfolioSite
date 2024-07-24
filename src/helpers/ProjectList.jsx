@@ -47,3 +47,44 @@ export const ProjectList = [
     site:'https://dcufansite.s3.eu-north-1.amazonaws.com/myp/myp.html'
   }
 ];
+
+export const header = {
+  homepage: 'http://localhost:5173/PersonalPortfolioWebsite/',
+  title: 'Home',
+}
+
+
+export const skills = [
+  {
+    title: 'Programming Languages',
+    list: ['JavaScript', 'Python', 'C#', 'C++', 'TypeScript']
+  },
+  {
+    title: 'Web and Mobile Development',
+    list: ['React.js', 'Node.js', 'Angular', 'HTML', 'CSS', 'React Native', '.NET Framework']
+  },
+  {
+    title: 'Backend Development',
+    list: ['.NET Framework', 'Node.js', 'Flask']
+  },
+  {
+    title: 'Database Management',
+    list: ['MongoDB', 'SQLite3', 'SQL']
+  },
+  {
+    title: 'Version Control',
+    list: ['Git', 'GitHub', 'Azure DevOps']
+  },
+  {
+    title: 'API Testing',
+    list: ['Postman']
+  },
+  {
+    title: 'Data Science and Machine Learning',
+    list: ['Pandas', 'NumPy', 'SciKit-Learn', 'Matplotlib', 'Seaborn', 'Spark', 'NLP']
+  },
+  {
+    title: 'Office Skills',
+    list: ['Microsoft Word', 'Excel', 'PowerPoint']
+  }
+];

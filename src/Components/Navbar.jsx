@@ -1,8 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useContext } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { ThemeContext } from '../context/theme';
 import "../Styles/Navbar.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import Brightness2Icon from '@mui/icons-material/Brightness2';
+
 function Navbar() {
+    const [{ themeName, toggleTheme }] = useContext(ThemeContext)
     const [expandNavbar,setExpandNavbar] = useState(false);
     const location = useLocation();
 
@@ -20,10 +25,19 @@ function Navbar() {
       </div>
       <div className='links'>
 
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link>
+        <Link to="/projects" className='link link--nav'>Projects</Link>
+        <Link to="/experience" className='link link--nav'>Experience</Link>
         
+
+        <button
+        type='button'
+        onClick={toggleTheme}
+        className='btn btn--icon nav__theme'
+        aria-label='toggle theme'
+        >
+          {themeName === 'dark' ? <WbSunnyIcon /> : <Brightness2Icon />}
+        </button>
+
       </div>
     </div>
   );

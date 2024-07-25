@@ -32,7 +32,7 @@ function Home() {
         <img src={one} alt="Ahmed Mohammed" className="profile-pic" />
 
         <h2> Hi, My Name is Ahmed Mohammed</h2>
-        <h3 className='about__role'>I am a <span class="multiple-text"></span></h3>
+        <h3 className='about__role'>I am a <span className="multiple-text"></span></h3>
 
         <p className='about__desc'>
             I'm a dedicated IT student with a strong interest in software 

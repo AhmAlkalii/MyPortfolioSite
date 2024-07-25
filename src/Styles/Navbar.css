@@ -37,18 +37,18 @@
 
   .links.expand {
       display: flex;
-      margin-top: 7.6em; /* Add margin-top to move links down */
+      margin-top: 7.6em; 
   }
 
   .links a {
       width: 100%;
-      padding: 1em 0; /* Increase padding for better visibility */
-      margin-left: 1em; /* Add left margin for some spacing from the left edge */
+      padding: 1em 0;
+      margin-left: 1em; 
   }
 
   .nav__theme {
       margin-left: 1em;
-      margin-top: 1em; /* Add margin-top for spacing below the last link */
+      margin-top: 1em; 
   }
 }
 

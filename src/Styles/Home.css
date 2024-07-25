@@ -37,7 +37,7 @@
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1.5em; /* Adjust spacing as needed */
+  margin-bottom: 1.5em; 
 }
 
 @media (max-width: 600px) {

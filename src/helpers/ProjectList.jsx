@@ -5,21 +5,21 @@ export const ProjectList = [
     skills: ["ReactJS", "NodeJS", "Sqlite3"], 
     description: 'Developed personal expense tracker system that aims to help users manage their finances by tracking income and expenses.',
     site: 'https://homebudgettrackerr.azurewebsites.net/',
-    git: 'https://github.com/AhmAlkalii/HomeExpensePlanner'
+    git: 'https://github.com/AhmAlkalii/PersonalExpenseTracker'
   },
   {
     name: "Car Rental Web Application (Full Stack)",
     skills: ["Angular", "Flask", "SQLite", "Azure"], 
     description: 'Developed a responsive car rental system. Implemented user authentication, reservations, and integrated third-party libraries (Toastr, Bootstrap, PrimeNG).',
     site: 'https://passarentalsitetest.azurewebsites.net/home',
-    git: 'https://github.com/AhmAlkalii/RentalsiteFrontend'
+    git: 'https://github.com/AhmAlkalii/CarRental-WebApp'
   },
   {
     name: "CV Generation Website (Frontend + Backend)",
     skills: ["Python", "Angular", "OpenAIAPI", "Flask", "SQL"], 
     
     description: 'Developed a website that generates resumes tailored to job descriptions using the OpenAI API. The platform features a user-friendly interface, ensuring a seamless experience for users creating resumes.',
-    git: 'https://github.com/AhmAlkalii/cv-generation-site-frontend'
+    git: 'https://github.com/AhmAlkalii/CV-Generation-Webapp'
   },
   {
     name: "Facial Recognition Attendance System",
@@ -31,7 +31,7 @@ export const ProjectList = [
     name: "Car Rental Mobile Application (FullStack)",
     skills: ["React Native", "Node and Express JS", "Sqlite3"], 
     description: 'Developed a mobile app for renting cars, featuring AI-powered chat support for enhanced user interaction.',
-    git: 'https://github.com/AhmAlkalii/CarRental-React-Native-Frontend'
+    git: 'https://github.com/AhmAlkalii/CarRental-MobileApp'
   },
   {
     name: "Modeled virus spread using cellular automata",
@@ -44,7 +44,6 @@ export const ProjectList = [
     skills: ["JavaScript", "HTML", "CSS"], 
     git: 'https://github.com/AAlkali/internshipAlkali',
     description: 'Developed a website that showcases a lot of DC superheroes and villains.',
-    site: 'https://dcufansite.s3.eu-north-1.amazonaws.com/myp/myp.html'
   },
   
 ];

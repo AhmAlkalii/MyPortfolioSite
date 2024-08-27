@@ -1,8 +1,14 @@
 
 export const ProjectList = [
   {
+    name: "Movie Booking System (FullStack)",
+    skills: ["ReactJS", "NodeJS", "MongoDB","Express"],
+    description: 'A fullstack application built using the MERN stack (MongoDB, Express, React, Node.js). This application allows users to browse movies, book tickets, and manage their accounts, all while ensuring secure transactions and data handling.',
+    site: 'https://github.com/AhmAlkalii/MovieBookingSystem'
+  },
+  {
     name: "Personal Expense Tracker (FullStack)",
-    skills: ["ReactJS", "NodeJS", "Sqlite3"], 
+    skills: ["ReactJS", "NodeJS", "Sqlite3", "Express"], 
     description: 'Developed personal expense tracker system that aims to help users manage their finances by tracking income and expenses.',
     site: 'https://homebudgettrackerr.azurewebsites.net/',
     git: 'https://github.com/AhmAlkalii/PersonalExpenseTracker'

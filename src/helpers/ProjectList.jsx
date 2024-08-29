@@ -4,7 +4,7 @@ export const ProjectList = [
     name: "Movie Booking System (FullStack)",
     skills: ["ReactJS", "NodeJS", "MongoDB","Express"],
     description: 'A fullstack application built using the MERN stack (MongoDB, Express, React, Node.js). This application allows users to browse movies, book tickets, and manage their accounts, all while ensuring secure transactions and data handling.',
-    site: 'https://github.com/AhmAlkalii/MovieBookingSystem'
+    git: 'https://github.com/AhmAlkalii/MovieBookingSystem'
   },
   {
     name: "Personal Expense Tracker (FullStack)",

@@ -15,14 +15,14 @@ export const ProjectList = [
   },
   {
     name: "Car Rental Web Application (Full Stack)",
-    skills: ["Angular", "Flask", "SQLite", "Azure"], 
+    skills: ["Angular", "Flask", "SQLite3", "Azure"], 
     description: 'Developed a responsive car rental system. Implemented user authentication, reservations, and integrated third-party libraries (Toastr, Bootstrap, PrimeNG).',
     site: 'https://passarentalsitetest.azurewebsites.net/home',
     git: 'https://github.com/AhmAlkalii/CarRental-WebApp'
   },
   {
     name: "CV Generation Website (Frontend + Backend)",
-    skills: ["Python", "Angular", "OpenAIAPI", "Flask", "SQL"], 
+    skills: ["Python", "Angular", "OpenAIAPI", "Flask", "SQLite3"], 
     
     description: 'Developed a website that generates resumes tailored to job descriptions using the OpenAI API. The platform features a user-friendly interface, ensuring a seamless experience for users creating resumes.',
     git: 'https://github.com/AhmAlkalii/CV-Generation-Webapp'

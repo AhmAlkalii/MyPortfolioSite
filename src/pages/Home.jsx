@@ -47,7 +47,7 @@ function Home() {
         </p>
 
         <div className='about__contact center'>
-            <a href='https://www.canva.com/design/DAGLamlm3W0/vF7_rZC9xKpe0MgmGUX5LA/view?utm_content=DAGLamlm3W0&utm_campaign=designshare&utm_medium=link&utm_source=editor'>
+            <a href='https://www.canva.com/design/DAGPOwBb5Bg/7f7Q-CsNzosyMSLAf0LQlA/view?utm_content=DAGPOwBb5Bg&utm_campaign=designshare&utm_medium=link&utm_source=editor'>
                 <span type='button' className='btn btn--outline'>
                 Resume
                 </span>

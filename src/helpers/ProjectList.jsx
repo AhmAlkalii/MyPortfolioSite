@@ -7,6 +7,13 @@ export const ProjectList = [
     git: 'https://github.com/AhmAlkalii/MovieBookingSystem'
   },
   {
+    "name": "E-Commerce API (Backend)",
+    "skills": [".NET Core", "Entity Framework Core", "API Development"],
+    "description": "Developed a comprehensive backend system for a restaurant website that enables customers to place orders using credit cards and track their order status. The project emphasizes enhancing customer experience and includes efficient order management for admins.",
+    "git": "https://github.com/AhmAlkalii/EcomBackendAPI"
+  }
+  ,
+  {
     name: "Personal Expense Tracker (FullStack)",
     skills: ["ReactJS", "NodeJS", "Sqlite3", "Express"], 
     description: 'Developed personal expense tracker system that aims to help users manage their finances by tracking income and expenses.',

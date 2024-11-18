@@ -12,7 +12,7 @@ import one from '../assets/4.jpeg'
 function Home() {
   useEffect(() => {
     const typed = new Typed('.multiple-text', {
-      strings: ['IT student','Nigerian', '21 year old','Data Science and Machine Learning Enthusiast', 'Software Development Enthusiast','Video Games Lover','Football fan' ],
+      strings: ['IT student','Nigerian', '21 year old','Data Science and Machine Learning Enthusiast', 'Software Developer','Video Games Lover','Football fan' ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,

@@ -106,6 +106,7 @@ export const skills = [
 
 export const certifications = [
   "CPA - Programming Essentials in C++ - Cisco (2023)",
+  "Foundational C# - Microsoft (2024)",
   "NDG Linux Essentials - Cisco (2023)",
   "NDG Linux Unhatched - Cisco (2023)",
   "JavaScript Essentials 1 (JSE) - Cisco (2023)",

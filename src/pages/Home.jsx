@@ -35,15 +35,23 @@ function Home() {
         <h3 className='about__role'>I am a <span className="multiple-text"></span></h3>
 
         <p className='about__desc'>
-            I'm a dedicated IT student with a strong interest in software 
-            development, both frontend and backend, as well as data science 
-            and machine learning. I enjoy learning new technologies and 
-            applying my skills in practical projects, such as developing 
-            web solutions using React and analyzing data with Python. 
-            Working with people from diverse backgrounds has provided me with a deep understanding and awareness of how to be 
-            an excellent teamplayer in addtion has helped me develop good communication 
-            skills.
-            Check out my resume to learn more about my skills and experience!
+        
+        I am an enthusiastic IT student with a strong passion for software development, 
+        focusing on both frontend and backend technologies. I enjoy creating user-friendly, 
+        responsive web applications using modern tools and frameworks like React, 
+        and I have experience building scalable systems that solve real-world challenges.
+        </p>
+
+        <p className='about__desc'>
+
+        Working on diverse projects has strengthened my problem-solving skills 
+        and taught me the importance of effective collaboration and communication within teams. 
+        I am always eager to explore new technologies and apply them to meaningful projects. 
+        </p>
+        <p className='about__desc'>
+
+        Check out my resume to learn more about my technical expertise and experience!
+
         </p>
 
         <div className='about__contact center'>
@@ -53,7 +61,7 @@ function Home() {
                 </span>
             </a>
             
-            <a href="https://www.linkedin.com/in/ahmed-mohammed-alkali-959a18265" target="_blank" rel="noopener noreferrer" className='link link--icon'>
+            <a href="https://www.linkedin.com/in/ahmed-mohammed-alkali" target="_blank" rel="noopener noreferrer" className='link link--icon'>
                 <LinkedInIcon />
             </a>
             <a href={"https://github.com/AhmAlkalii"} target="_blank" className='link link--icon' rel="noopener noreferrer">

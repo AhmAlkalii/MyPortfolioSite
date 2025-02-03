@@ -17,14 +17,14 @@ export const ProjectList = [
     name: "Personal Expense Tracker (FullStack)",
     skills: ["ReactJS", "NodeJS", "Sqlite3", "Express"], 
     description: 'Developed personal expense tracker system that aims to help users manage their finances by tracking income and expenses.',
-    site: 'https://homebudgettrackerr.azurewebsites.net/',
+    // site: 'https://homebudgettrackerr.azurewebsites.net/',
     git: 'https://github.com/AhmAlkalii/PersonalExpenseTracker'
   },
   {
     name: "Car Rental Web Application (Full Stack)",
     skills: ["Angular", "Flask", "SQLite3", "Azure"], 
     description: 'Developed a responsive car rental system. Implemented user authentication, reservations, and integrated third-party libraries (Toastr, Bootstrap, PrimeNG).',
-    site: 'https://passarentalsitetest.azurewebsites.net/home',
+    // site: 'https://passarentalsitetest.azurewebsites.net/home',
     git: 'https://github.com/AhmAlkalii/CarRental-WebApp'
   },
   {
